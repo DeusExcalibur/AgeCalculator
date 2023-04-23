@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+  
+  <title>Age calculator app</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet">
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <h1>Age Calculator App</h1>
+
+  <div class="main-container">
+    <!-- Inputs y texto -->
+    <div class="flex-container">
+      <div class="item item1">
+        <p class="texto">Day</p>
+        <form action="">
+          <input class="dia" type="text" placeholder="DD">
+        </form>
+        <p class="textoerror ocultar error">Must be a valid day</p>
+      </div>
+      <div class="item item2">
+        <p class="texto">Month</p>
+        <form action="">
+          <input class="mes" type="text" placeholder="MM">
+        </form>
+        <p class="textoerror ocultar error">Must be a valid month</p>
+      </div>
+      <div class="item item3">
+        <p class="texto">Year</p>
+        <form action="">
+          <input class="años" type="text" placeholder="YYYY">
+        </form>
+        <p class="textoerror ocultar error">Must be a valid year</p>
+      </div>
+    </div>
+    
+    <!-- Espacio e icono -->
+    <div class="flecha">
+      <hr>
+      <div class="boton">
+        <img src="./assets/images/icon-arrow.svg" alt="Flecha">
+      </div>
+    </div>
+
+    <!-- texto desplegado -->
+    <div class="resultado">
+      <p><span class="numero añostexto">--</span>years</p>
+      <p><span class="numero mesestexto">--</span>months</p>
+      <p><span class="numero diastexto">--</span>days</p>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">David Segura Vesga</a>.
+  </div>
+
+  <script src="./js/index.js"></script>
+</body>
+</html>

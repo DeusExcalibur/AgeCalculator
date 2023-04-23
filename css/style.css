@@ -1,0 +1,94 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  background-color: hsl(0, 0%, 94%);
+}
+
+.main-container {
+  background-color: hsl(0, 0%, 100%);
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+  border-radius: 5%;
+  border-bottom-right-radius: 30%;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  padding-top: 20px;
+}
+.flex-container .item {
+  width: 25%;
+}
+.flex-container .item .texto {
+  text-transform: uppercase;
+  margin-left: 3.5rem;
+  color: hsl(0, 1%, 44%);
+}
+.flex-container .item form {
+  text-align: center;
+}
+.flex-container .item form input {
+  text-decoration: none;
+  outline: none;
+  width: 60%;
+  height: 60px;
+  font-size: 32px;
+  border: solid 1px hsl(0, 0%, 86%);
+  padding-left: 10px;
+}
+.flex-container .item form input:focus {
+  border-color: hsl(259, 100%, 65%);
+  caret-color: hsl(259, 100%, 65%);
+}
+.flex-container .item form input::-moz-placeholder {
+  color: hsl(0, 100%, 67%);
+}
+.flex-container .item form input::placeholder {
+  color: hsl(0, 100%, 67%);
+}
+
+.flecha {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.flecha hr {
+  width: 70%;
+  display: inline;
+}
+.flecha .boton img {
+  background-color: hsl(259, 100%, 65%);
+  width: 50px;
+  height: 50px;
+  padding: 25px;
+  margin-right: 3rem;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.resultado {
+  margin-left: 3vw;
+  font-size: 3em;
+}
+.resultado .numero {
+  color: hsl(259, 100%, 65%);
+}
+
+.textoerror {
+  font-size: 10px;
+}
+
+.error {
+  color: hsl(0, 100%, 67%);
+  text-align: center;
+  border-color: hsl(0, 100%, 67%);
+}
+
+.ocultar {
+  opacity: 0;
+}/*# sourceMappingURL=style.css.map */
